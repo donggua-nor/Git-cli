@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "esnext",
+    "target": "esnext",
+    "declaration": true,
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "rootDir": "./src",
+    "outDir": "dist",
+    "typeRoots": ["./types"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
