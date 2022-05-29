@@ -1,1 +1,3 @@
-console.log('hello');
+import { precheck } from './utils'
+
+precheck()
